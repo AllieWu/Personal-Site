@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac04ef61bc7b9dbb7c396bd28cee2f62",
+    "revision": "10572cb86c6f16b62a74ecd76b760ed3",
     "url": "/Personal-Site/index.html"
   },
   {
-    "revision": "f357e3edcfd54745c685",
-    "url": "/Personal-Site/static/css/main.d6c886b4.chunk.css"
+    "revision": "87292c618beb3adf2257",
+    "url": "/Personal-Site/static/css/main.9df66c94.chunk.css"
   },
   {
     "revision": "0e9316b06e349ee2483c",
     "url": "/Personal-Site/static/js/2.c0979860.chunk.js"
   },
   {
-    "revision": "f357e3edcfd54745c685",
-    "url": "/Personal-Site/static/js/main.39f2984e.chunk.js"
+    "revision": "87292c618beb3adf2257",
+    "url": "/Personal-Site/static/js/main.a4a758af.chunk.js"
   },
   {
     "revision": "291f388cf1ac580ba938",
@@ -180,10 +180,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Site/static/media/OpenSans-SemiboldItalic-webfont.719f7321.woff"
   },
   {
-    "revision": "a062a7c658ee1ed4413beae3a5e54c49",
-    "url": "/Personal-Site/static/media/computer.a062a7c6.jpg"
-  },
-  {
     "revision": "0a799148a50bb02c6f380eabd8d97559",
     "url": "/Personal-Site/static/media/fontawesome-webfont.0a799148.svg"
   },
@@ -290,6 +286,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a89e8b08dce72badeb744b3df3a13186",
     "url": "/Personal-Site/static/media/profilepic.a89e8b08.jpg"
+  },
+  {
+    "revision": "0b4f6ff9ee490e7beb529f651d1c3641",
+    "url": "/Personal-Site/static/media/rockgarden.0b4f6ff9.jpg"
   },
   {
     "revision": "5123bfa6db7c44338fc7aab444242af6",
