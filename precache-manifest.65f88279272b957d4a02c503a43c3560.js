@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c155ad70c58e1ee59a91288bf3913cb5",
+    "revision": "2a4af3b94d4e0ddc594190070fa9052b",
     "url": "/Personal-Site/index.html"
   },
   {
-    "revision": "ef56fbd5ad25f2ed8912",
-    "url": "/Personal-Site/static/css/main.6cb7f91d.chunk.css"
+    "revision": "cd8ee2754a312d624299",
+    "url": "/Personal-Site/static/css/main.728986b4.chunk.css"
   },
   {
-    "revision": "3894fb244a26bb5c47d9",
-    "url": "/Personal-Site/static/js/2.1e3b9ece.chunk.js"
+    "revision": "7b0c0e1cf4c1500e8994",
+    "url": "/Personal-Site/static/js/2.a383aa0d.chunk.js"
   },
   {
-    "revision": "ef56fbd5ad25f2ed8912",
-    "url": "/Personal-Site/static/js/main.25d9d890.chunk.js"
+    "revision": "cd8ee2754a312d624299",
+    "url": "/Personal-Site/static/js/main.36481b50.chunk.js"
   },
   {
     "revision": "291f388cf1ac580ba938",
@@ -180,6 +180,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Site/static/media/OpenSans-SemiboldItalic-webfont.719f7321.woff"
   },
   {
+    "revision": "f64ba563a072839fc5bdf19504382975",
+    "url": "/Personal-Site/static/media/compooper.f64ba563.JPG"
+  },
+  {
     "revision": "0a799148a50bb02c6f380eabd8d97559",
     "url": "/Personal-Site/static/media/fontawesome-webfont.0a799148.svg"
   },
@@ -210,6 +214,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce25cd5bdc97f3162b5ed8d9facb3005",
     "url": "/Personal-Site/static/media/fontello.ce25cd5b.eot"
+  },
+  {
+    "revision": "7069f2858de56f6442f1e24c588700a5",
+    "url": "/Personal-Site/static/media/googlecloudconsole.7069f285.png"
   },
   {
     "revision": "eefbc49801520a6cf7d03c11887fc76d",
@@ -280,8 +288,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Site/static/media/magician.5881aa4a.png"
   },
   {
+    "revision": "0b0a56c25fc991f6226a74b6416b9a81",
+    "url": "/Personal-Site/static/media/magicianscene.0b0a56c2.png"
+  },
+  {
     "revision": "6323ea4d9598b13a81423aa28141e474",
     "url": "/Personal-Site/static/media/mail.6323ea4d.png"
+  },
+  {
+    "revision": "fe53c7b2559a3b4063dae302cdc93f65",
+    "url": "/Personal-Site/static/media/ncs.fe53c7b2.JPG"
   },
   {
     "revision": "a89e8b08dce72badeb744b3df3a13186",
