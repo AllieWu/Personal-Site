@@ -13,8 +13,8 @@ class Social extends Component {
         if (this.props.data !== undefined) {
             var socialList = this.props.data.map(function (social) {
                 return <div key={social.name}>
-                    <li>
-                        <a href={social.url} class="link">
+                    <li key={social.name}>
+                        <a href={social.url} className="link">
                             <img className={social.imgname === "linkedinlogo" ? "linkedin-logo" : (social.imgname === "maillogo" ? "mail-logo" : (social.imgname === "githublogo" ? "github-logo" : undefined))}
                                 src={social.imgname === "linkedinlogo" ? linkedinlogo : (social.imgname === "maillogo" ? maillogo : (social.imgname === "githublogo" ? githublogo : undefined))}
                                 alt={social.imgname + "Image"} />
