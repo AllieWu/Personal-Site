@@ -38,11 +38,11 @@ The 'Node.js Command Prompt' will be used to run, test, build, and deploy the Re
 
 5. If you have a custom domain, you must replace the default website link with your custom domain link after every npm deployment. You also have to update the CNAME file in the gh-pages branch with several variations of your domain.
 
-Mine is the following: 
+    Mine is the following: 
 
-```allisonwu.com ```
+    ```allisonwu.com ```
 
-```www.allisonwu.com```
+    ```www.allisonwu.com```
 
 
  
