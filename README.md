@@ -12,7 +12,9 @@ Access at www.allisonwu.com
 
 2. Download Node JS/NPM (https://nodejs.org/en/download/)
 
-3. Download your favorite code editor, I recommend Visual Studios Code (https://code.visualstudio.com/Download)
+3. Downlaod Git (https://git-scm.com/downloads)
+
+4. Download your favorite code editor, I recommend Visual Studios Code (https://code.visualstudio.com/Download)
 
 <br/>
 
