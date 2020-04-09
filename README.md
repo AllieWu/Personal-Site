@@ -27,9 +27,9 @@ Access at www.allisonwu.com
 
 4. You should now be able to see your website at the link in the 'Github Pages' section of the repository's settings (defaulted to https://USER.github.io/REPONAME/)
 
-5. **If you have a custom domain, you must replace the default website link with your custom domain link after every npm deployment. You also have to update the CNAME file in the gh-pages branch with several variations of your domain.**
+5. **If you have a custom domain, you must replace the default website link with your custom domain link after every npm deployment. Sometimes, you also have to update the CNAME file in the gh-pages branch with several variations of your domain.**
 
-    Mine is the following: 
+    My CNAME file is the following: 
 
     ```allisonwu.com ```
 
