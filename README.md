@@ -59,9 +59,9 @@ The 'Node.js Command Prompt' will be used to run, test, build, and deploy the Re
 
 3. To deploy to GitHub pages: ```npm run deploy```
 
-*npm run deploy should be set up for you in the package.json, where deploy is ```gh-pages -d build```*
+    *npm run deploy should be set up for you in the package.json, where deploy is ```gh-pages -d build```*
 
-*The first run should require authentication through a Github pop up*
+    *The first run should require authentication through a Github pop up*
 
 <br/>
   
