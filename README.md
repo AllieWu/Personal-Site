@@ -43,19 +43,19 @@ The 'Node.js Command Prompt' will be used to run, test, build, and deploy the Re
 1. First, setup Git by authenticating your account for HTTPS (recommended) or SSH connection to the repository
 
 
-Open up a Git Terminal and run the following:
+    Open up a Git Terminal and run the following:
 
-```git config --gobal user.name "UserForWholePC"```
+    ```git config --gobal user.name "UserForWholePC"```
 
-```git config --global user.email "GitEmail"```
-
-
-Then go to the path of your GitHub repository (defaulted to ~/Documents/USER/LOCALREPO) and run the following:
-
-```git remote add REPONAME URLTOREPO```
+    ```git config --global user.email "GitEmail"```
 
 
-2. To run locally (defaulted to https://localhost:3000/): ```npm run start``` 
+    Then go to the path of your GitHub repository (defaulted to ~/Documents/USER/LOCALREPO) and run the following:
+
+    ```git remote add REPONAME URLTOREPO```
+
+
+2. To run locally: ```npm run start``` (defaulted to https://localhost:3000/)
 
 3. To deploy to GitHub pages: ```npm run deploy```
 
