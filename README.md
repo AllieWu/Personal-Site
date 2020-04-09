@@ -12,7 +12,7 @@ Access at www.allisonwu.com
 
 2. Download Node JS/NPM (https://nodejs.org/en/download/)
 
-3. Downlaod Git (https://git-scm.com/downloads)
+3. Download Git (https://git-scm.com/downloads)
 
 4. Download your favorite code editor, I recommend Visual Studios Code (https://code.visualstudio.com/Download)
 
@@ -21,11 +21,27 @@ Access at www.allisonwu.com
 ## DEVELOPMENT
 The 'Node.js Command Prompt' will be used to run, test, build, and deploy the React website code
 
-1. To run locally (defaulted to https://localhost:3000/): ```npm run start``` 
+1. First, setup Git by authenticating your account for HTTPS (recommended) or SSH connection to the repository
 
-2. To deploy to GitHub pages: ```npm run deploy```
+
+Open up a Git Terminal and run the following:
+
+```git config --gobal user.name "UserForWholePC"```
+
+```git config --global user.email "GitEmail"```
+
+
+Then go to the path of your GitHub repository (defaulted to ~/Documents/USER/LOCALREPO) and run the following:
+
+```git remote add REPONAME URLTOREPO```
+
+
+2. To run locally (defaulted to https://localhost:3000/): ```npm run start``` 
+
+3. To deploy to GitHub pages: ```npm run deploy```
 
 *npm run deploy should be set up for you in the package.json, where deploy is ```gh-pages -d build```*
+*The first run should require authentication through a Github pop up*
 
 <br/>
   
