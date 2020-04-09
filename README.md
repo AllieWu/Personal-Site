@@ -48,11 +48,11 @@ Then go to the path of your GitHub repository (defaulted to ~/Documents/USER/LOC
 ## SETUP GITHUB PAGES 
 1. To host the website through GitHub, you have to make sure that a copy of this code or other working React website code is in a repository of your own
 
-2. In the repository's settings, scroll to the 'GitHub Pages' section and choose the 'gh-pages branch' for the source
+2. In the repository's settings, scroll to the 'GitHub Pages' section, enable GitHub Pages, and choose the 'gh-pages branch' for the source
 
 3. Make sure the most recent version of the code is updated to the repository's Master Branch with ```npm run deploy```
 
-4. You should now be able to see your website at the link in the 'Github Pages' section of the repository's settings
+4. You should now be able to see your website at the link in the 'Github Pages' section of the repository's settings (defaulted to https://USER.github.io/REPONAME/)
 
 5. If you have a custom domain, you must replace the default website link with your custom domain link after every npm deployment. You also have to update the CNAME file in the gh-pages branch with several variations of your domain.
 
