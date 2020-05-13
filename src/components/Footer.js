@@ -5,18 +5,25 @@ import "./../css/fonts.css"
 import "./../css/magnific-popup.css"
 import "./../css/media-queries.css"
 
+// formatting the given information
 class Footer extends Component {
    render() {
+      if (this.props.data) {
+         var year = this.props.data.year;
+         var name = this.props.data.name;
+     }
       return (
-         <footer>
+         <footer id="footer">
             <div className="row">
                <div className="twelve columns">
                   <ul className="copyright">
-                     <li>&copy; Copyright 2019  Allison Wu</li>
+                     <li>&copy; Copyright {year}  {name}</li>
                   </ul>
 
                </div>
-               <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+               <div className="scrollup">
+                    <a className="smoothscroll" href="#home" title="Back to Top"><i className="icon-down-circle"></i></a>
+                </div>
             </div>
          </footer>
       );

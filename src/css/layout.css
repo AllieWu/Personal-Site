@@ -7,9 +7,9 @@
    e. Projects Section
    f. Footer
    g. Social Side Nav
+*/
 
 /* ------------------------------------------------------------------ */
-
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
@@ -22,7 +22,6 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
-
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
@@ -31,15 +30,14 @@ body {
    height: 400px;
    min-height: 300px;
    width: 100%;
-   background: #161415 url(./../assets/rockgarden.jpg) no-repeat top center;
+   background: #161415 url(./../assets/rockgarden.jpg) no-repeat top center; /* The title background photo */
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
 
-/* vertically center banner section */
-
+/* vertical center banner section */
 header:before {
    content: '';
    display: inline-block;
@@ -61,17 +59,18 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-   font: 100px/1.1em 'opensans-bold', sans-serif;
+   font: 100px/1.5em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: 9px;
-   margin: 0 auto 18px auto;
+   margin: 0 auto 0 auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
    margin-top: 35px;
 }
 
+/* I don't use a subtitle but you can if you want */
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   font: 25px/1em 'opensans-bold', sans-serif;
+   color: #fff;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -88,31 +87,7 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* header social links */
-
-header .social {
-   margin: 24px 0;
-   padding: 0;
-   font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
-}
-
-header .social li {
-   display: inline-block;
-   margin: 0 15px;
-   padding: 0;
-}
-
-header .social li a {
-   color: #fff;
-}
-
-header .social li a:hover {
-   color: #DB3069;
-}
-
 /* scrolldown link */
-
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
@@ -124,7 +99,6 @@ header .scrolldown a {
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
    border-radius: 100%;
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
@@ -150,7 +124,7 @@ header .scrolldown a:hover {
 /* nav-wrap */
 
 #nav-wrap {
-   font: 18px 'opensans-bold', sans-serif;
+   font: 21px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -169,10 +143,12 @@ header .scrolldown a:hover {
 
 #nav-wrap>a.mobile-btn {
    display: none;
+   top: 0px;
+   right: 0px;
 }
 
 ul#nav {
-   min-height: 48px;
+   min-height: 60px;
    width: auto;
    background-color: #212121;
    /* center align the menu */
@@ -182,7 +158,7 @@ ul#nav {
 ul#nav li {
    position: relative;
    list-style: none;
-   height: 48px;
+   height: 60px;
    display: inline-block;
 }
 
@@ -192,7 +168,7 @@ ul#nav li a {
    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
    display: inline-block;
    padding: 8px 13px;
-   line-height: 32px;
+   line-height: 44px;
    text-decoration: none;
    text-align: left;
    color: #fff;
@@ -203,12 +179,20 @@ ul#nav li a {
    transition: color .2s ease-in-out;
 }
 
+ul#nav li a:hover {
+   color: #DB3069;
+}
+
 ul#nav li a:active {
    background-color: transparent !important;
 }
 
 ul#nav li.current a {
    color: #DB3069;
+}
+
+ul#nav li.current a:hover {
+   color: #9e234c;
 }
 
 /* ------------------------------------------------------------------ */
@@ -218,10 +202,9 @@ ul#nav li.current a {
 
 #about {
    background: #2C2936;
-   padding-top: 96px;
+   padding-top: 66px;
    padding-bottom: 66px;
    overflow: hidden;
-   padding-left: 10%;
 }
 
 #about a, #about a:visited {
@@ -244,28 +227,35 @@ ul#nav li.current a {
 }
 
 #about .profile-pic {
-   position: relative;
-   width: 180px;
-   height: 180px;
+   width: 200px;
+   height: auto;
    border-radius: 100%;
+   margin: 0px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 #about .contact-details {
    width: 41.66667%;
 }
 
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
+#about .address {
+   margin-bottom: 0px;
 }
 
-#about .main-col {
-   padding-right: 5%;
+#about .download {
+   width: 58.33333%;
+   padding-top: 5px;
+   padding-bottom: 5px;
 }
 
 #about .download .button {
-   margin-top: 6px;
+   margin-top: 5px;
+   margin-bottom: 5px;
    background: #444;
+   color: #fff;
 }
 
 #about .download .button:hover {
@@ -287,7 +277,6 @@ ul#nav li.current a {
    background: #EFEFEF;
    padding-top: 50px;
    padding-bottom: 50px;
-   padding-left: 10%;
    overflow: hidden;
 }
 
@@ -312,11 +301,20 @@ ul#nav li.current a {
 
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   padding-top: 8px;
 }
 
 #resume p {
-   margin-bottom: 5px;
+   margin-bottom: 12px;
+}
+
+.courseworkTitle {
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.coursework {
+   font: 14px/16px "Lucida Console", monospace;
+   letter-spacing: 1px;
 }
 
 #resume .item {
@@ -328,15 +326,15 @@ ul#nav li.current a {
    top: 7px;
    width: 40px;
    height: 27px;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .tesla-logo {
    position: relative;
-   top: 7px;
+   top: 10px;
    width: 35px;
    height: 35px;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .vector-logo {
@@ -345,7 +343,7 @@ ul#nav li.current a {
    width: 40px;
    height: 40px;
    border-radius: 100%;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .education-logo {
@@ -353,7 +351,7 @@ ul#nav li.current a {
    top: 10px;
    width: 40px;
    height: 40px;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .swamphacks-logo {
@@ -362,7 +360,7 @@ ul#nav li.current a {
    width: 40px;
    height: 40px;
    border-radius: 100%;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .magician-logo {
@@ -370,7 +368,7 @@ ul#nav li.current a {
    top: 10px;
    width: 30px;
    height: 30px;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .ufkb-logo {
@@ -379,7 +377,7 @@ ul#nav li.current a {
    width: 40px;
    height: 40px;
    border-radius: 10%;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .swe-logo {
@@ -388,15 +386,15 @@ ul#nav li.current a {
    width: 40px;
    height: 40px;
    border-radius: 100%;
-   margin-right: 5px;
+   margin-right: 10px;
 }
 
 #resume .header-col {
-   padding-top: 9px;
+   padding-top: 12px;
 }
 
-#resume .main-col {
-   padding-right: 10%;
+#resume .header-col .h1 {
+   line-height: 10px;
 }
 
 #resume .resumeObject {
@@ -405,7 +403,7 @@ ul#nav li.current a {
 
 .education, .work, .involvement, .portfolio {
    margin-bottom: 48px;
-   border-bottom: 1px solid #E8E8E8;
+   /*border-bottom: 2px solid #E8E8E8;*/
    padding-top: 24px;
 }
 
@@ -426,20 +424,24 @@ ul#nav li.current a {
    border-radius: 15px;
 }
 
+#resume .parentInfo {
+   width: 100%;
+   min-height: 24px;
+   margin-bottom: 12px;
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 11px;
-}
-
-#resume .info span {
-   margin-right: 5px;
-   margin-left: 5px;
+   float: left;
+   margin: 0px;
 }
 
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
+   font: 16px/24px 'opensans-regular', sans-serif;
+   color: #6E7881;
+   float: right;
+   margin: 0px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -449,9 +451,7 @@ ul#nav li.current a {
 
 #projects {
    background: rgb(236, 236, 236);
-   padding-top: 50px;
    padding-bottom: 50px;
-   padding-left: 10%;
    overflow: hidden;
 }
 
@@ -465,6 +465,7 @@ ul#nav li.current a {
 #projects h1 span {
    border-bottom: 3px solid #DB3069;
    padding-bottom: 6px;
+   line-height: 40px;
 }
 
 #projects .item {
@@ -474,13 +475,13 @@ ul#nav li.current a {
    font-size: 26px;
    line-height: 40px;
    width: 400px;
-   margin: 25px;
-   margin-top: 0px;
+   margin: 0px 0px 25px 0px;
    background-color: white;
    display: inline-block;
    position: relative;
    vertical-align: middle;
-   max-height: fit-content;
+   max-height: fit-content;   
+   text-align: center;
 }
 
 #projects .image {
@@ -510,18 +511,18 @@ ul#nav li.current a {
 #projects .wrapper {
    -webkit-font-smoothing: antialiased;
    display: inline-block;
-   vertical-align: middle;
    max-width: 500px;
    max-height: 500px;
-   text-align: right;
+   text-align: center;
+   margin: 10px;
 }
+
 
 #projects .mini {
    max-height: fit-content;
    max-width: 250px;
-   margin: 20px;
    margin-top: 0px;
-   text-align: right;
+   text-align: center;
    font-size: 15px;
    line-height: 10px;
    vertical-align: top;
@@ -573,14 +574,12 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
    background-color: #EFEFEF;
    color: #000000;
    font-size: 14px;
    text-align: center;
    position: relative;
-   top: 50px;
+   top: 30px;
 }
 
 footer a, footer a:visited {
@@ -613,62 +612,47 @@ footer .copyright li:before {
    content: "\2022";
    padding-left: 10px;
    padding-right: 10px;
-   color: #095153;
+   color: #DB3069;
 }
 
 footer .copyright li:first-child:before {
    display: none;
 }
 
-/* social links */
-
-footer .social-links {
-   margin: 18px 0 30px 0;
-   padding: 0;
-   font-size: 30px;
-}
-
-footer .social-links li {
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-   margin-left: 42px;
-   color: #F06000;
-}
-
-footer .social-links li:first-child {
-   margin-left: 0;
+footer .row .twelve {
+   width: 100% !important; 
 }
 
 /* Go To Top Button */
 
-#go-top {
+footer .scrollup {
    position: absolute;
-   top: -75px;
    left: 50%;
-   margin-left: -30px;
+   margin: 0px;
+   padding: 0px;
 }
 
-#go-top a {
-   text-decoration: none;
-   border: 0 none;
+footer .scrollup a {
+   position: absolute;
+   bottom: 5px;
+   right: 50%;
+   margin-right: -29px;
+   color: #000;
    display: block;
-   width: 60px;
-   height: 60px;
-   background-color: #525252;
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
-   color: #fff;
-   font-size: 21px;
-   line-height: 60px;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
    border-radius: 100%;
+   -webkit-transition: all .3s ease-in-out rotate(180deg);
+   -moz-transition: all .3s ease-in-out rotate(180deg);
+   -o-transition: all .3s ease-in-out rotate(180deg);
+   transition: all .3s ease-in-out rotate(180deg);
+   transform: rotate(180deg);
 }
 
-#go-top a:hover {
-   background-color: #0F9095;
+footer .scrollup a:hover {
+   color: #DB3069;
 }
 
 /* ------------------------------------------------------------------ */

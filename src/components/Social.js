@@ -8,6 +8,7 @@ import "./../css/fonts.css"
 import "./../css/magnific-popup.css"
 import "./../css/media-queries.css"
 
+// formatting the given information
 class Social extends Component {
     render() {
         if (this.props.data !== undefined) {

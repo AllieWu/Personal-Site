@@ -6,6 +6,7 @@ import "./../css/fonts.css"
 import "./../css/magnific-popup.css"
 import "./../css/media-queries.css"
 
+// formatting the given information
 class About extends Component {
     render() {
         if (this.props.data) {
@@ -18,11 +19,11 @@ class About extends Component {
         return (
             <section id="about">
                 <div className="row">
-                    <div className="three columns">
+                    <div className="three columns header-col">
                         <img className="profile-pic" src={profilepic} alt="Allison Wu Profile" />
                     </div>
                     <div className="nine columns main-col">
-                        <h2>About Me</h2>
+                        <h2>Hi, I'm Allison</h2>
 
                         <p>{bio}</p>
                         <div className="row">
@@ -34,7 +35,7 @@ class About extends Component {
                                     <span>{email}</span>
                                 </p>
                             </div>
-                            <div className="columns download">
+                            <div className="columns download" style={{ paddingBottom: "0px", height: "75px" }}>
                                 <p>
                                     <a href={resume} className="button"><i className="fa fa-download"></i>Download Resume</a>
                                 </p>

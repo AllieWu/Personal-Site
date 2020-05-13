@@ -3,6 +3,7 @@
 *   Ceevee Media Queries
 *   url: styleshout.com
 *   03-18-2014
+*   Edited 4/11/2020 by Allison Wu
 
 /* ================================================================== */
 
@@ -29,11 +30,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 78px/1.5em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1em 'opensans-bold', sans-serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -49,52 +50,32 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+   #about {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      height: auto;
+   }
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      width: 180px;
    }
    #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+   #about .download { 
+      width: 50%; 
+      height: auto;
+   }
+   #about .address { margin-bottom: 0px;}
+
+   
 
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
-
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;      
-   }
-
-    /* Call to Action Section
-   ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-
-   /* Contact Section
-   ------------------------------------------------------------------- */
-   #contact .section-head { margin-bottom: 30px; }
-   #contact .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
-
-
 }
+
 
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
-
 @media only screen and (max-width: 767px) {
 
    /* mobile navigation
@@ -112,7 +93,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #DB3069;
 		position: relative;
       border: none;
       float: right;
@@ -123,7 +104,6 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
    }
 
 	#nav-wrap > a:before,
@@ -152,16 +132,14 @@
       float: right;     
 
       position: relative;
-      top: 12px;
       right: 0;
    }
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
 	   display: block;
-      padding: 30px 20px 48px 20px;
+      padding: 20px;
       background: #1f2024;
-      margin: 0 30px;
       clear: both;
    }
 
@@ -180,10 +158,9 @@
       margin: 0;
       padding: 0;      
       margin: 12px 0; 
-      line-height: 16px; /* reset line-height from 48px */
+      line-height: 16px; /* reset line-height */
       border: none;
    }  
-
 
    /* Header Styles
    -------------------------------------------------------------------- */
@@ -209,70 +186,57 @@
    }
    header .social li { margin: 0 10px; }
 
-    /* scrolldown link */
-   header .scrolldown { display: none; }
-
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   
+   #about .profile-pic {
+      width: 150px;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
-      padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
-
+   #about .header-col {
+      width: 200px !important;
+      height: 200px !important;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      padding: 50px;
+   }
 
    /* Resume Section
    --------------------------------------------------------------------- */
    #resume .header-col {
-      padding-top: 0;
-      margin-bottom: 48px;
+      padding-top: 0px;
+      margin-bottom: 20px;
+      width: auto;
+   }
+   #resume h1 { 
+      letter-spacing: 3px; 
       text-align: center;
    }
-   #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #resume h3, #resume .info, #resume .date { text-align: center; }
       
    .bars { width: 100%; }
 
 
-   /* Call To Action Section
+
+   /* Projects Section
    /* ----------------------------------------------------------------- */
-   #call-to-action { text-align: center; }
-   #call-to-action h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   #projects .header-col {
+      padding-top: 0px;
+      margin-bottom: 20px;
+      width: auto;
    }
-   #call-to-action h1 span { display: block; }
-   #call-to-action .header-col h1:before { content: none; }
-   #call-to-action p { font-size: 15px; }
-
-
-   /* Portfolio Section
-   /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #project-wrapper .columns { 
+      margin-bottom: 40px; 
+      align-content: center;
+   }
    .popup-modal {	max-width: 85%; }
-
-
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
+   #projects .main-col {
+      text-align: center !important;
    }
 
    /* Control Nav */
@@ -281,61 +245,12 @@
       margin-left: -30px;
    }
 
-
-   /* contact Section
-   ----------------------------------------------------------------------- */
-   #contact { padding-bottom: 66px; }
-   #contact .section-head { margin-bottom: 12px; }
-   #contact .section-head h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;            
-      text-align: center;   
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }  
-   #contact h1 span { display: block; }
-   #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
-   #contact .section-head p.lead { text-align: center;}
-
-   /* form */
-   #contact label {
-      float: none;
-      width: 100%;
-   }
-   #contact input,
-   #contact textarea,
-   #contact select {
-     	margin-bottom: 6px;    	
-      width: 100%;
-   }
-   #contact button.submit { margin: 30px 0 24px 0; }
-   #message-warning, #message-success {
-      width: 100%;
-      margin-left: 0;
-   }
-
-
    /* footer
    ------------------------------------------------------------------------ */
   
    /* copyright */
    footer .copyright li:before { content: none; }
    footer .copyright li { margin-right: 12px; }
-
-   /* social links */
-   footer .social-links { font-size: 22px; }
-   footer .social-links li { margin-left: 18px; }
-
-   /* Go To Top Button */
-   #go-top { margin-left: -22px; }
-   #go-top a {
-   	width: 54px;
-   	height: 54px;
-      font-size: 18px;
-      line-height: 54px;
-   }
-
-
 }
 
 /* mobile narrow
@@ -358,21 +273,180 @@
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
-  
-   /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
 
-   /* footer
+   /* about styles
+    -------------------------------------------------------------------- */ 
+    #about {
+     height: auto !important;
+   }
+   #about .profile-pic {
+      top: 70px;
+   }
+   #about .header-col {
+      width: 140px !important;
+      height: 140px !important;
+   }
+   #about .main-col {
+      top: 15px;
+   }
+
+
+   /* resume 
    ------------------------------------------------------------------------ */
+   #resume .main-col {
+      margin: 0px, 0px, 20px, 0px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+      margin: 0px;
+      padding: 0px;
+   }
+   #resume .header-col {
+      width: 100% !important;
+      margin-bottom: 10px;
+   }
+   #resume .h1 {
+      text-align: center !important;
+   }
+   #resume .info {
+      width: 100% !important;
+   }
+   #resume .date {
+      width: 100% !important;
+      margin-bottom: 10px;
+   }
 
-   /* social links */
-   footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }   
+   /* project 
+   ------------------------------------------------------------------------ */
+   .item {
+      max-width: 250px;
+   }
+   #projects .header-col {
+      width: 100% !important;
+      text-align: center !important;
+   }
+
+   /* social 
+   ------------------------------------------------------------------------ */
+   #social {
+      margin-left: -90px;
+   }
 
 }
 
+/* ipad sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 1024px) and (width: 768px) {
 
+   /* nav
+   ------------------------------------------------------------------ */
+   ul#nav li a {
+      font-size: 20px;
+   }
+
+}
+
+/* iphone X sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 375px) and (width: 812px) {
+
+   /* nav
+   ------------------------------------------------------------------ */
+   ul#nav li a {
+      font-size: 20px;
+   }
+
+   /* about
+   ------------------------------------------------------------------ */
+   #about .download .button {
+      width: 225px;
+      text-align: center;
+   }
+
+   #about .download .button p {
+      width: 225px;
+   }
+   
+}
+
+/* iphone 6/7/8 plus sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 414px) and (width: 736px) {
+
+   /* resume
+   ------------------------------------------------------------------ */
+   #resume .info {
+      width: 100%;
+   }
+
+   #resume .date {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   
+}
+
+/* iphone 6/7/8 sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 375px) and (width: 667px) {
+
+   /* resume
+   ------------------------------------------------------------------ */
+   #resume .info {
+      width: 100%;
+   }
+
+   #resume .date {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   
+}
+
+/* iphone 5 sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 320px) and (width: 568px) {
+
+   /* resume
+   ------------------------------------------------------------------ */
+   #resume .info {
+      width: 100%;
+   }
+
+   #resume .date {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   
+}
+
+/* pixel 2 XL sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 411px) and (width: 823px) {
+
+   ul#nav {
+      font-size: 18px;
+   }
+   
+}
+
+
+/* galaxy S5 sideways
+--------------------------------------------------------------------- */
+@media only screen and (height: 360px) and (width: 640px) {
+
+   /* resume
+   ------------------------------------------------------------------ */
+   #resume .info {
+      width: 100%;
+   }
+
+   #resume .date {
+      width: 100%;
+      margin-bottom: 10px;
+   }
+   
+}
 
 
 

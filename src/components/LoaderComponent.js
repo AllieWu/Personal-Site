@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LoadingGif from './../../src/assets/loading.gif'
 
+// this doesn't work yet
 export default class LoaderComponent extends Component {
   constructor(props) {
     super(props);

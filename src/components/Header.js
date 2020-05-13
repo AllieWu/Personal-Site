@@ -5,10 +5,12 @@ import "./../css/fonts.css"
 import "./../css/magnific-popup.css"
 import "./../css/media-queries.css"
 
+// formatting the given information
 class Header extends Component {
     render() {
         if (this.props.data) {
             var name = this.props.data.namecapped;
+            var subtitle = this.props.data.subtitle;
         }
         return (
             <header id="home">
@@ -26,12 +28,13 @@ class Header extends Component {
 
                 <div className="row banner">
                     <div className="banner-text">
-                        <h1 className="responsive-headline">{name}</h1>
+                        <h1>{name}</h1>
+                        <h3>{subtitle}</h3>
                     </div>
                 </div>
 
                 <p className="scrolldown">
-                    <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                    <a className="smoothscroll" href="#footer"><i className="icon-down-circle"></i></a>
                 </p>
                 
             </header>

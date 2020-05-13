@@ -11,6 +11,7 @@ import magicianImage from "./../assets/magicianscene.png"
 import googleImage from "./../assets/googlecloudconsole.png"
 import modelImage from "./../assets/model.png"
 
+// formatting the given information
 class Portfolio extends Component {
     render() {
         if (this.props.data !== undefined) {
@@ -58,19 +59,19 @@ class Portfolio extends Component {
         return (
             <section id="projects">
                 <div className="row portfolio">
-                    <div className="four columns header-col" style={{ width: "100%", marginBottom: "10px" }}>
-                        <h1><span>Some of my Projects</span></h1>
+                    <div className="three columns header-col" style={{ marginBottom: "10px" }}>
+                        <h1><span>Projects</span></h1>
                     </div>
-                    <div className="twelve columns main-col">
+                    <div className="nine columns main-col">
                         {projectsFormatted}
                     </div>
                 </div>
 
                 <div className="row portfolio">
-                    <div className="four columns header-col" style={{ width: "100%", marginBottom: "10px" }}>
-                        <h1><span>Miscellaneous Projects</span></h1>
+                    <div className="three columns header-col" style={{ marginBottom: "10px" }}>
+                        <h1><span>Mini Projects</span></h1>
                     </div>
-                    <div className="twelve columns main-col">
+                    <div className="nine columns main-col">
                         {miniFormatted}
                     </div>
                 </div>
