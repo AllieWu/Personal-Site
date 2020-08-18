@@ -1,5 +1,5 @@
 # Personal-Site README
-### Last updated 4/8/2020
+### Last updated 8/17/2020
 Personal resume website hosted by GitHub pages.
 Files are public if you'd like to use code as inspiration!
 
@@ -14,7 +14,10 @@ Access at www.allisonwu.com
 
 3. Download Git (https://git-scm.com/downloads)
 
-4. Download your favorite code editor, I recommend Visual Studios Code (https://code.visualstudio.com/Download)
+4. Make sure all packages are installed by opening up the 'Node.js Command Prompt' and running
+    ```npm install```
+
+5. Download your favorite code editor, I recommend Visual Studios Code (https://code.visualstudio.com/Download)
 
 <br/>
 
