@@ -57,10 +57,10 @@ class Resume extends Component {
                 var useLink = involvement.imgname === "swamphacks-logo" ? "https://2020.swamphacks.com/" : (involvement.imgname === "swe-logo" ? "http://www.ufswe.com/" : (involvement.imgname === "ufkb-logo" ? "https://www.facebook.com/groups/533348426850757/" : undefined))
 
                 if (involvement.position1 !== undefined) {
-                    var skills = involvement.position1.skills !== undefined ? involvement.position1.skills.map(function (skill) {
+                    var skills1 = involvement.position1.skills !== undefined ? involvement.position1.skills.map(function (skill) {
                         return <span key={involvement.title + " skills"} className="skill">{skill}</span>
                     }) : undefined
-                    var description = involvement.position1.description !== undefined ? involvement.position1.description.map(function (desc) {
+                    var description1 = involvement.position1.description !== undefined ? involvement.position1.description.map(function (desc) {
                         return <p key={involvement.position1.title + " description"}>{desc}</p>
                     }) : undefined
 
@@ -69,15 +69,15 @@ class Resume extends Component {
                             <p className="info">{involvement.position1.title}</p>
                             <p className="date">{involvement.position1.years}</p>
                             </div>
-                            {description}
-                            {skills}
+                            {description1}
+                            {skills1}
                         </div>
                 }
                 if (involvement.position2 !== undefined) {
-                    var skills = involvement.position2.skills !== undefined ? involvement.position2.skills.map(function (skill) {
+                    var skills2 = involvement.position2.skills !== undefined ? involvement.position2.skills.map(function (skill) {
                         return <span key={involvement.title + " skills"} className="skill">{skill}</span>
                     }) : undefined
-                    var description = involvement.position2.description !== undefined ? involvement.position2.description.map(function (desc) {
+                    var description2 = involvement.position2.description !== undefined ? involvement.position2.description.map(function (desc) {
                         return <p key={involvement.position2.title + " description"} className="description">{desc}</p>
                     }) : undefined
 
@@ -86,8 +86,8 @@ class Resume extends Component {
                             <p className="info">{involvement.position2.title}</p>
                             <p className="date">{involvement.position2.years}</p>
                             </div>
-                            {description}
-                            {skills}
+                            {description2}
+                            {skills2}
                         </div>
                 }
 
