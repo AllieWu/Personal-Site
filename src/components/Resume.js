@@ -26,7 +26,8 @@ class Resume extends Component {
                         <p className="date">{education.graduated}</p>
                     </div>
                     <p>{education.description}</p>
-                    <div className="courseworkTitle">Relevant Coursework: </div>{education.coursework}
+                    <div className="courseworkTitle">Relevant Coursework: </div>
+                    <p>{education.coursework}</p>
                 </div>
             })
             var work = this.props.data.work.map(function (work) {
@@ -54,23 +55,49 @@ class Resume extends Component {
             var involvement = this.props.data.involvement.map(function (involvement) {
                 var useLogo = involvement.imgname === "swamphacks-logo" ? swamphackslogo : (involvement.imgname === "magician-logo" ? magicianlogo : (involvement.imgname === "swe-logo" ? swelogo : (involvement.imgname === "ufkb-logo" ? ufkblogo : undefined)))
                 var useLink = involvement.imgname === "swamphacks-logo" ? "https://2020.swamphacks.com/" : (involvement.imgname === "swe-logo" ? "http://www.ufswe.com/" : (involvement.imgname === "ufkb-logo" ? "https://www.facebook.com/groups/533348426850757/" : undefined))
-                var skills = involvement.skills !== undefined ? involvement.skills.map(function (skill) {
-                    return <span key={involvement.title + " skills"} className="skill">{skill}</span>
-                }) : undefined
-                var description = involvement.description !== undefined ? involvement.description.map(function (desc) {
-                    return <p key={involvement.title + " description"}>{desc}</p>
-                }) : undefined
+
+                if (involvement.position1 !== undefined) {
+                    var skills = involvement.position1.skills !== undefined ? involvement.position1.skills.map(function (skill) {
+                        return <span key={involvement.title + " skills"} className="skill">{skill}</span>
+                    }) : undefined
+                    var description = involvement.position1.description !== undefined ? involvement.position1.description.map(function (desc) {
+                        return <p key={involvement.position1.title + " description"}>{desc}</p>
+                    }) : undefined
+
+                    var position1 = <div>
+                            <div className="parentInfo">
+                            <p className="info">{involvement.position1.title}</p>
+                            <p className="date">{involvement.position1.years}</p>
+                            </div>
+                            {description}
+                            {skills}
+                        </div>
+                }
+                if (involvement.position2 !== undefined) {
+                    var skills = involvement.position2.skills !== undefined ? involvement.position2.skills.map(function (skill) {
+                        return <span key={involvement.title + " skills"} className="skill">{skill}</span>
+                    }) : undefined
+                    var description = involvement.position2.description !== undefined ? involvement.position2.description.map(function (desc) {
+                        return <p key={involvement.position2.title + " description"} className="description">{desc}</p>
+                    }) : undefined
+
+                    var position2 = <div className="secondaryPosition">
+                            <div className="parentInfo">
+                            <p className="info">{involvement.position2.title}</p>
+                            <p className="date">{involvement.position2.years}</p>
+                            </div>
+                            {description}
+                            {skills}
+                        </div>
+                }
+
 
                 return <div key={involvement.name} className="resume item">
                     <h3 key={involvement.name + " header"}><a href={useLink}>
                         <img className={involvement.imgname} src={useLogo} alt={involvement.name + "Image"} />
                     </a>{involvement.name}</h3>
-                    <div className="parentInfo">
-                        <p className="info">{involvement.title}</p>
-                        <p className="date">{involvement.years}</p>
-                    </div>
-                    {description}
-                    {skills}
+                    {position1}
+                    {position2}
                 </div>
             })
         }

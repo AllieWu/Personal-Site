@@ -305,16 +305,23 @@ ul#nav li.current a:hover {
 
 #resume p {
    margin-bottom: 12px;
+   color: #616970;
 }
 
 .courseworkTitle {
-   font-weight: bold;
+   font-weight: 600;
    font-size: 16px;
+   color: #454b50;
 }
 
 .coursework {
    font: 14px/16px "Lucida Console", monospace;
    letter-spacing: 1px;
+   color: #616970;
+}
+
+.secondaryPosition {
+   padding-top: 15px;
 }
 
 #resume .item {
@@ -409,9 +416,9 @@ ul#nav li.current a:hover {
 
 .skill {
    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-   color: #333333;
+   color: #616060;
    -webkit-font-smoothing: antialiased;
-   border: 1px solid #392B58;
+   border: 1px solid #777777;
    margin-right: 10px;
    text-transform: uppercase;
    font-weight: 500;
@@ -419,9 +426,9 @@ ul#nav li.current a:hover {
    display: inline-block;
    font-size: 11px;
    line-height: 1.33333em;
-   padding: 7px 18px;
-   margin-top: 0.8em;
-   border-radius: 15px;
+   padding: 4px 13px;
+   margin-top: 0.5em;
+   border-radius: 13px;
 }
 
 #resume .parentInfo {
@@ -432,14 +439,14 @@ ul#nav li.current a:hover {
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #454b50;
    float: left;
    margin: 0px;
 }
 
 #resume .date {
    font: 16px/24px 'opensans-regular', sans-serif;
-   color: #6E7881;
+   color: #616970;
    float: right;
    margin: 0px;
 }
