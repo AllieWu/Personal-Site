@@ -27,7 +27,7 @@ class App extends Component {
     super(props);
     this.state = {
       resumeData: {
-        main: { name: "Allison Wu", namecapped: "ALLISON WU", subtitle: "", bio: "Welcome to my personal site! I'm a rising junior Computer Science major at the University of Florida and some of my hobbies include building programs, tinkering, discovering music, and playing with animals.", phone: "(916) 952-3707", email: "allisonwu2000@gmail.com", resume: "https://drive.google.com/file/d/1s5G2Nz1Cl7o-Uo2IFBP0t7eI8osJkXjK/view?usp=sharing" },
+        main: { name: "Allison Wu", namecapped: "ALLISON WU", subtitle: "", bio: "Welcome to my personal site! I'm a rising junior Computer Science major at the University of Florida and some of my hobbies include building programs, tinkering, discovering music, and playing with animals.", phone: "(916) 952-3707", email: "allisonwu2000@gmail.com", resume: "https://drive.google.com/file/d/1lNj-JfWkp4dxlt36tOLBaG-3YyS-ddxv/view?usp=sharing" },
         resume: {
           education: [
             { imgname: "uflogo", school: "The University of Florida", degree: "Bachelor of Computer Science", graduated: "Expected Graduation May 2022", description: "Pursuing a Bachelor's of Science in Coputer Science under the Herbert Wertheim College of Engineering as well as a minor in Statistics.", coursework: "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Software Engineering (Fall 2020)" }
