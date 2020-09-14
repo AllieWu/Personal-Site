@@ -1,5 +1,5 @@
 # Personal-Site README
-### Last updated 8/17/2020
+### Last updated 9/13/2020
 Personal resume website hosted by GitHub pages.
 Files are public if you'd like to use code as inspiration!
 
@@ -48,7 +48,7 @@ The 'Node.js Command Prompt' will be used to run, test, build, and deploy the Re
 
     Open up a Git Terminal and run the following:
 
-    ```git config --gobal user.name "UserForWholePC"```
+    ```git config --global user.name "UserForWholePC"```
 
     ```git config --global user.email "GitEmail"```
 
