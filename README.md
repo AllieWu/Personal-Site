@@ -1,5 +1,5 @@
 # Personal-Site README
-### Last updated 8/17/2020
+### Last updated 9/13/2020
 Personal resume website hosted by GitHub pages.
 Files are public if you'd like to use code as inspiration!
 
