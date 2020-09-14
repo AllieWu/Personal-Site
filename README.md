@@ -48,7 +48,7 @@ The 'Node.js Command Prompt' will be used to run, test, build, and deploy the Re
 
     Open up a Git Terminal and run the following:
 
-    ```git config --gobal user.name "UserForWholePC"```
+    ```git config --global user.name "UserForWholePC"```
 
     ```git config --global user.email "GitEmail"```
 
