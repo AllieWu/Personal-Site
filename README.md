@@ -26,11 +26,11 @@ Access at www.allisonwu.com
 
 2. Make sure the gh-pages module is installed, and update your package.json to have
 
-```"homepage": "http://alliewu.github.io/PJANG"```
+    ```"homepage": "http://alliewu.github.io/PJANG"```
 
-and in scripts, add:
-```"predeploy": "npm run build",```
-```"deploy": "gh-pages -d build" ```
+    and in scripts, add:
+    ```"predeploy": "npm run build",```
+    ```"deploy": "gh-pages -d build" ```
 
 3. In the repository's settings, scroll to the 'GitHub Pages' section, enable GitHub Pages, and choose the 'gh-pages branch' for the source
 
