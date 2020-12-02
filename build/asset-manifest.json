@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c61b955.chunk.css",
+    "main.js": "/static/js/main.070cf799.chunk.js",
+    "main.js.map": "/static/js/main.070cf799.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fee11082.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fee11082.js.map",
+    "static/js/2.f40aa6ed.chunk.js": "/static/js/2.f40aa6ed.chunk.js",
+    "static/js/2.f40aa6ed.chunk.js.map": "/static/js/2.f40aa6ed.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ac3675f76e77215c2511345a583424c0.js": "/precache-manifest.ac3675f76e77215c2511345a583424c0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0c61b955.chunk.css.map": "/static/css/main.0c61b955.chunk.css.map",
+    "static/js/2.f40aa6ed.chunk.js.LICENSE.txt": "/static/js/2.f40aa6ed.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/librebaskerville-regular-webfont.eaf077e2.ttf",
+    "static/media/compooper.JPG": "/static/media/compooper.f64ba563.JPG",
+    "static/media/default.css": "/static/media/fontello.ce25cd5b.eot",
+    "static/media/googlecloudconsole.png": "/static/media/googlecloudconsole.7069f285.png",
+    "static/media/intel.jpg": "/static/media/intel.eefbc498.jpg",
+    "static/media/lakeImage.jpg": "/static/media/lakeImage.6596e963.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.d51da72e.png",
+    "static/media/loading.gif": "/static/media/loading.44376c93.gif",
+    "static/media/magician.png": "/static/media/magician.5881aa4a.png",
+    "static/media/magicianscene.png": "/static/media/magicianscene.0b0a56c2.png",
+    "static/media/mail.png": "/static/media/mail.6323ea4d.png",
+    "static/media/model.png": "/static/media/model.01ce3d32.png",
+    "static/media/ncs.JPG": "/static/media/ncs.fe53c7b2.JPG",
+    "static/media/pjang.png": "/static/media/pjang.c45cf23f.png",
+    "static/media/profilepic.png": "/static/media/profilepic.429011bc.png",
+    "static/media/layout.css": "/static/media/rockgarden.0b4f6ff9.jpg",
+    "static/media/swamphacks.jpg": "/static/media/swamphacks.5123bfa6.jpg",
+    "static/media/swe.jpg": "/static/media/swe.2f8a121f.jpg",
+    "static/media/tesla-logo.png": "/static/media/tesla-logo.9b56abdf.png",
+    "static/media/uflogo5.png": "/static/media/uflogo5.e89f8d4b.png",
+    "static/media/website.jpg": "/static/media/website.7a04040b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fee11082.js",
+    "static/js/2.f40aa6ed.chunk.js",
+    "static/css/main.0c61b955.chunk.css",
+    "static/js/main.070cf799.chunk.js"
+  ]
+}
