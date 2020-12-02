@@ -40,6 +40,7 @@ class App extends Component {
         },
         resume: {
           education: [
+<<<<<<< HEAD
             {
               imgname: "uflogo",
               school: "The University of Florida",
@@ -50,6 +51,9 @@ class App extends Component {
               coursework:
                 "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Operating Systems, Software Engineering, Databases (Spring 2021), Programming Language Concepts (Spring 2021)",
             },
+=======
+            { imgname: "uflogo", school: "The University of Florida", degree: "Bachelor of Computer Science", graduated: "Expected Graduation May 2022", description: "Pursuing a Bachelor's of Science in Computer Science under the Herbert Wertheim College of Engineering as well as a minor in Statistics.", coursework: "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Operating Systems (Fall 2020), Software Engineering (Fall 2020)" }
+>>>>>>> 814bb74541545bdd07e9cdfc70884500fa43e87b
           ],
           work: [
             {

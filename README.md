@@ -1,5 +1,5 @@
 # Personal-Site README
-### Last updated 9/13/2020
+### Last updated 11/16/2020
 Personal resume website hosted by GitHub pages.
 Files are public if you'd like to use code as inspiration!
 
@@ -24,13 +24,21 @@ Access at www.allisonwu.com
 ## SETUP GITHUB PAGES 
 1. To host the website through GitHub, you have to make sure that a copy of this code or other working React website code is in a repository of your own
 
-2. In the repository's settings, scroll to the 'GitHub Pages' section, enable GitHub Pages, and choose the 'gh-pages branch' for the source
+2. Make sure the gh-pages module is installed, and update your package.json to have
 
-3. Make sure the most recent version of the code is updated to the repository's Master Branch with ```npm run deploy```
+    ```"homepage": "http://alliewu.github.io/PJANG"```
 
-4. You should now be able to see your website at the link in the 'Github Pages' section of the repository's settings (defaulted to https://USER.github.io/REPONAME/)
+    and in scripts, add:
+    ```"predeploy": "npm run build",```
+    ```"deploy": "gh-pages -d build" ```
 
-5. **If you have a custom domain, you must replace the default website link with your custom domain link after every npm deployment. Sometimes, you also have to update the CNAME file in the gh-pages branch with several variations of your domain.**
+3. In the repository's settings, scroll to the 'GitHub Pages' section, enable GitHub Pages, and choose the 'gh-pages branch' for the source
+
+4. Make sure the most recent version of the code is updated to the repository's Master Branch with ```npm run deploy```
+
+5. You should now be able to see your website at the link in the 'Github Pages' section of the repository's settings (defaulted to https://USER.github.io/REPONAME/)
+
+6. **If you have a custom domain, you must replace the default website link with your custom domain link after every npm deployment. Sometimes, you also have to update the CNAME file in the gh-pages branch with several variations of your domain.**
 
     My CNAME file is the following: 
 
