@@ -38,6 +38,7 @@ class Resume extends Component {
             <p>{education.description}</p>
             <div className="courseworkTitle">Relevant Coursework: </div>
             <p>{education.coursework}</p>
+            <p>{education.coursework2}</p>
           </div>
         );
       });
