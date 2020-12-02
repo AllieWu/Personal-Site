@@ -40,20 +40,18 @@ class App extends Component {
         },
         resume: {
           education: [
-<<<<<<< HEAD
             {
               imgname: "uflogo",
               school: "The University of Florida",
               degree: "Bachelor of Computer Science",
               graduated: "Expected Graduation May 2022",
               description:
-                "Pursuing a Bachelor's of Science in Coputer Science under the Herbert Wertheim College of Engineering as well as a minor in Statistics.",
+                "Pursuing a Bachelor's of Science in Computer Science under the Herbert Wertheim College of Engineering as well as a minor in Statistics.",
               coursework:
                 "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Operating Systems, Software Engineering, Databases (Spring 2021), Programming Language Concepts (Spring 2021)",
+              coursework2:
+                "Probability, Engineering Statisics, Statistics Theory (Spring 2021), Regression Analysis (Spring 2021)",
             },
-=======
-            { imgname: "uflogo", school: "The University of Florida", degree: "Bachelor of Computer Science", graduated: "Expected Graduation May 2022", description: "Pursuing a Bachelor's of Science in Computer Science under the Herbert Wertheim College of Engineering as well as a minor in Statistics.", coursework: "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Operating Systems (Fall 2020), Software Engineering (Fall 2020)" }
->>>>>>> 814bb74541545bdd07e9cdfc70884500fa43e87b
           ],
           work: [
             {
@@ -142,7 +140,7 @@ class App extends Component {
               name: "Magician",
               position1: {
                 title: "Project Lead, Recruiter, Developer",
-                years: "August 2018 - Present",
+                years: "August 2018 - June 2020",
                 description: [
                   "Project lead for a select group of students passionate about all aspects of video game development, including but not limited to programming, game design, and art. Magician was developed using Unity (C#).",
                   "Programmed the user interfaces, inventory/crafting/quest/job system, and resource loading.",
@@ -214,7 +212,7 @@ class App extends Component {
               name: "UF Kickboxing Club",
               position1: {
                 title: "Member",
-                years: "September 2018 - Present",
+                years: "September 2018 - May 2020",
                 description: [
                   "Proud member of UFKB, meeting four times a week to hone individuals' skills in sparring with an emphasis in kickboxing among other martial arts.",
                 ],
