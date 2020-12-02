@@ -225,8 +225,7 @@ class App extends Component {
               image: "pjang-image",
               title: "Laundr Website",
               description:
-                "Designed, developed, tested, and deployed a MERN stack eCommerce website for an actual client, Laundr,\
-                throughout the Fall 2020 semester for my Software Engineering class.\
+                "is a MERN stack eCommerce site designed, developed, tested, and deployed for an actual client, Laundr, throughout the Fall 2020 semester for my Software Engineering class.\
                 I performed as the Project Manager, Scrum Master, and primary Developer among 4 other student developers.",
               url: "https://pjang.herokuapp.com/",
             },
