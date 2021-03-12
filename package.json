@@ -34,7 +34,7 @@
     "object.getownpropertydescriptors": "^2.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
-    "react-dev-utils": "^10.2.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.13.1",
     "react-loading": "^2.0.3",
     "react-router": "^4.3.0",
