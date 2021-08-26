@@ -31,12 +31,11 @@ class App extends Component {
           name: "Allison Wu",
           namecapped: "ALLISON WU",
           subtitle: "",
-          bio:
-            "Welcome to my personal site! I'm a junior Computer Science major at the University of Florida and some of my hobbies include building programs, tinkering, discovering music, and doodling :)",
+          bio: "Welcome to my personal site! I'm a senior Computer Science major at the University of Florida and some of my hobbies include building programs, tinkering, discovering music, and doodling :)",
           phone: "(916) 952-3707",
           email: "allisonwu2000@gmail.com",
           resume:
-            "https://drive.google.com/file/d/1lNj-JfWkp4dxlt36tOLBaG-3YyS-ddxv/view?usp=sharing",
+            "https://drive.google.com/file/d/1-dvO573_cJx32taVDUDjNFsxXdGvgX4r/view?usp=sharing",
         },
         resume: {
           education: [
@@ -48,9 +47,9 @@ class App extends Component {
               description:
                 "Pursuing a Bachelor's of Science in Computer Science under the Herbert Wertheim College of Engineering as well as a minor in Statistics.",
               coursework:
-                "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Operating Systems, Software Engineering, Databases (Spring 2021), Programming Language Concepts (Spring 2021)",
+                "Programming in Java, Programming in C++, Discrete Math, Data Structures & Algorithms, Introduction to Computer Organization, Operating Systems, Software Engineering, Databases, Programming Language Concepts, Human Computer Interaction, Computer Networking",
               coursework2:
-                "Probability, Engineering Statisics, Statistics Theory (Spring 2021), Regression Analysis (Spring 2021)",
+                "Probability, Engineering Statisics, Statistics Theory, Regression Analysis, Design of Experiments",
             },
           ],
           work: [
@@ -61,7 +60,27 @@ class App extends Component {
               title: "Software Engineering Intern",
               years: "June 2021 - August 2021",
               description: [
-                "Incoming SWE Summer 2021 intern for the Cloud & Artifical Intelligence group at Microsoft in Redmond, Washington.",
+                "Developed and launched an end-to-end proof of concept solution to optimize the telemetry pipeline and redesign the onboarding experience of leased datacenter sites",
+                "Built features to support new complex business logic to facilitate the onboarding process of datacenter sites",
+                "Technologies and languages used includes Microsoft Azure, Kubernetes, Docker, Telegraf, Blazor, C#",
+              ],
+              skills: [
+                "Microsoft Azure",
+                "Docker",
+                "C#",
+                "Telegraf",
+                "Blazor",
+                "Kubernetes",
+                "Javascript",
+                "Terraform",
+                "Azure DevOps",
+                "HTML/CSS",
+                "GIT",
+                "Full Stack Web Development",
+                "Angular",
+                ".Net",
+                "Asp.Net",
+                "Scrum/Agile Methodologies",
               ],
             },
             {
@@ -135,6 +154,18 @@ class App extends Component {
             },
           ],
           involvement: [
+            {
+              name: "MineTest",
+              position1: {
+                title: "Developer",
+                years: "August 2021 - Present",
+                description: [
+                  "MineTest is a video game written in C++ with mods in Lua developed by a University of Florida research group under Professor Jeremiah Blanchard.",
+                  "Integrated WebAssembly and Javascript VM into the code base to facilitate easy language integration.",
+                ],
+                skills: ["C++", "Javascript", "Agile Development"],
+              },
+            },
             {
               imgname: "magician-logo",
               name: "Magician",

@@ -195,16 +195,20 @@ class Resume extends Component {
           );
         }
 
+        var logo = useLogo ? (
+          <a href={useLink}>
+            <img
+              className={involvement.imgname}
+              src={useLogo}
+              alt={involvement.name + "Image"}
+            />
+          </a>
+        ) : undefined;
+
         return (
           <div key={involvement.name} className="resume item">
             <h3 key={involvement.name + " header"}>
-              <a href={useLink}>
-                <img
-                  className={involvement.imgname}
-                  src={useLogo}
-                  alt={involvement.name + "Image"}
-                />
-              </a>
+              {logo}
               {involvement.name}
             </h3>
             {position1}
