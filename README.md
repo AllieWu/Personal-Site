@@ -26,7 +26,7 @@ Access at www.allisonwu.com
 
 2. Make sure the gh-pages module is installed, and update your package.json to have
 
-    ```"homepage": "http://alliewu.github.io/PJANG"```
+    ```"homepage": "http://alliewu.github.io/"```
 
     and in scripts, add:
     ```"predeploy": "npm run build",```
