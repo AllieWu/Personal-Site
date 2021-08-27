@@ -190,7 +190,7 @@ class App extends Component {
               name: "SwampHacks",
               position1: {
                 title: "Logistics Director",
-                years: "March 2020 - Present",
+                years: "March 2020 - February 2021",
                 description: [
                   "Organized annual 36-hour hackathon for 818 students with 18+ sponsors including companies such as Microsoft, Google, and J.P. Morgan.",
                   "Oversaw all logistics operations of the hospitality, travel, food, activities, event, and sustainability coordination groups.",
@@ -222,7 +222,7 @@ class App extends Component {
               name: "Society of Women Engineers",
               position2: {
                 title: "Member",
-                years: "August 2019 - Present",
+                years: "August 2019 - March 2021",
                 description: [
                   "SWE is the world's largest advocate for women in STEAM.",
                   "UF's chapter helps individuals reach their full potential by providing opportunities for career development, relationship building, and by promoting the presence of women.",
@@ -230,7 +230,7 @@ class App extends Component {
               },
               position1: {
                 title: "Evening with Industry Chair",
-                years: "April 2020 - Present",
+                years: "April 2020 - March 2021",
                 description: [
                   "Evening with Industry (EWI) is a career fair for organization and community members to network with companies.",
                   "EWI chair responsibilities include recruiting sponsors, handling budgets, ensuring the success of the event, and all related logistics.",
@@ -243,7 +243,7 @@ class App extends Component {
               name: "UF Kickboxing Club",
               position1: {
                 title: "Member",
-                years: "September 2018 - May 2020",
+                years: "September 2018 - Present",
                 description: [
                   "Proud member of UFKB, meeting four times a week to hone individuals' skills in sparring with an emphasis in kickboxing among other martial arts.",
                 ],
@@ -274,13 +274,7 @@ class App extends Component {
               description:
                 "Interactive resume website - click on the photo for the open source code! Instructions on usage and implementation are in the README file.",
               url: "https://github.com/AllieWu/Personal-Site",
-            },
-            {
-              image: "ncs-image",
-              title: "Image Recognition",
-              description:
-                "Project idea to use a Neural Compute Stick, Raspberry Pi 3, and Machine Learning (2D Convolutional Neural Network) to identify objects in camera's path.",
-            },
+            }
           ],
           miniprojects: [
             {
@@ -327,7 +321,7 @@ class App extends Component {
           },
         ],
         footer: {
-          year: "2019",
+          year: "2021",
           name: "Allison Wu",
         },
       },
