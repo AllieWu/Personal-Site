@@ -17,7 +17,7 @@ Access at www.allisonwu.com
 4. Make sure all packages are installed by opening up the 'Node.js Command Prompt' and running
     ```npm install```
 
-5. Download your favorite code editor, I recommend Visual Studios Code (https://code.visualstudio.com/Download)
+5. Download your favorite code editor, I recommend Visual Studio Code (https://code.visualstudio.com/Download)
 
 <br/>
 
