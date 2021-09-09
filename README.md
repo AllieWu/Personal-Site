@@ -1,5 +1,3 @@
-Hello Katie!
-
 # Personal-Site README
 
 ### Last updated 11/16/2020
