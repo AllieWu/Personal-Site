@@ -35,7 +35,7 @@ class App extends Component {
           phone: "(916) 952-3707",
           email: "allisonwu2000@gmail.com",
           resume:
-            "https://drive.google.com/file/d/1UQM5gTTeGbUDZKmJu81WD3C-R7ZV7j7Z/view?usp=sharing",
+            "https://drive.google.com/file/d/1bhSdrwkKAdypuIgGd2U3_DGz_pbTKQB0/view?usp=sharing",
         },
         resume: {
           education: [
@@ -164,6 +164,26 @@ class App extends Component {
                   "Integrated WebAssembly and Javascript VM into the code base to facilitate easy language integration.",
                 ],
                 skills: ["C++", "Javascript", "Agile Development"],
+              },
+            },
+            {
+              name: "Gator Gulf Energy (First Place)",
+              position1: {
+                title: "Hacker",
+                years: "August 2021 - December 2021",
+                description: [
+                  "Research project to analyze the viability and potential of harnessing the perpetual energy of the Florida Gulf Stream.",
+                  "Personal contributions include full stack web development and deployment.",
+                  "Demo: https://www.youtube.com/watch?v=WD_bB5OMNoQ&ab_channel=AllieWu",
+                ],
+                skills: [
+                  "Kubernetes",
+                  "Javascript",
+                  "Node.js",
+                  "Express",
+                  "ReactJS",
+                  "IBMCloud",
+                ],
               },
             },
             {
