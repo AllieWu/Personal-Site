@@ -35,7 +35,7 @@ class App extends Component {
           phone: "(916) 952-3707",
           email: "allisonwu2000@gmail.com",
           resume:
-            "https://drive.google.com/file/d/1-dvO573_cJx32taVDUDjNFsxXdGvgX4r/view?usp=sharing",
+            "https://drive.google.com/file/d/1UQM5gTTeGbUDZKmJu81WD3C-R7ZV7j7Z/view?usp=sharing",
         },
         resume: {
           education: [
@@ -274,7 +274,7 @@ class App extends Component {
               description:
                 "Interactive resume website - click on the photo for the open source code! Instructions on usage and implementation are in the README file.",
               url: "https://github.com/AllieWu/Personal-Site",
-            }
+            },
           ],
           miniprojects: [
             {
