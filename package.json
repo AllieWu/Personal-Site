@@ -30,7 +30,7 @@
     "is-core": "^1.0.0",
     "is-promise": "^4.0.0",
     "mini-css-extract-plugin": "^0.11.2",
-    "node-forge": "^0.10.0",
+    "node-forge": "^1.0.0",
     "object.getownpropertydescriptors": "^2.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
